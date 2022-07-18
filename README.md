@@ -13,9 +13,10 @@ SYNTAX
 
 
 DESCRIPTION
-    When using Jekyll you'll find that some themes (like jekyll-theme-potato-hacker) don't support paging in blogs.
-    Large blogs thus get huge and load slowly. This script can be used to create archive pages for old blog posts.
-    It creates one page per year in the _dropdown folder.
+    When using Jekyll you'll find that some themes (like jekyll-theme-potato-hacker) don't support
+    paging in blogs. Large blogs thus get huge and load slowly. 
+    This script can be used to create archive pages for old blog posts. It creates one page per year
+    in the _dropdown folder. Archived blog entries will not be deleted automatically.
 
 
 PARAMETERS
@@ -39,7 +40,6 @@ INPUTS
 OUTPUTS
 
 NOTES
-
 
         The script depends on powershell-yaml. You'll have to install that first via:
         "Install-Module -Name powershell-yaml"
